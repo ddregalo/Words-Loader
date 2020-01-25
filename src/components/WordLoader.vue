@@ -1,5 +1,8 @@
 <template>
   <div class="wrapper">
+    <div id="words">
+      {{ words }}
+    </div>
   </div>
 </template>
 
@@ -7,7 +10,7 @@
 export default {
   name: "WordLoader",
   props: {
-    words: [String]
+    words: Array
   }
 };
 </script>
